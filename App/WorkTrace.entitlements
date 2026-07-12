@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!--
+      NOT sandboxed. The App Sandbox blocks the Accessibility / active-window
+      inspection this app depends on. The plan is notarized distribution
+      OUTSIDE the Mac App Store, so hardened runtime is on and sandbox is off.
+    -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+    <!-- Allow sending Apple Events (Automation) for window-title reads. -->
+    <key>com.apple.security.automation.apple-events</key>
+    <true/>
+</dict>
+</plist>

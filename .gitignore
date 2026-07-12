@@ -1,0 +1,18 @@
+# XcodeGen output (regenerate with `xcodegen generate`)
+*.xcodeproj
+
+# Xcode / SwiftPM
+.build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# User data / local db artifacts
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
