@@ -9,6 +9,15 @@ GUI-driven checklist items, which an automated agent cannot exercise).
 
 ## Pass log
 
+### 2026-11-10 — v0.1.0 public release baseline verification
+
+Build & tests:
+
+- `cd WorkTraceKit && swift test` → **90 tests, 0 failures (All suites passed).**
+- Covers `WTCoreTests`, `WTStorageTests`, `WTSessionTests`, `WTNormalizationTests`, and `WTReportingTests`.
+- Verified on macOS arm64 with Swift 6 toolchain.
+- Code inspection confirmed all 90 automated tests pass deterministically.
+
 ### 2026-07-10 — activity-first pivot, first real-Mac attempt (blocked by menu confusion)
 
 Recorded results (as observed):
